@@ -24,6 +24,21 @@ header{
 
 }
 
+menu{
+
+    border-bottom: #D6CFC7 1px solid;
+    width: fit-content;    
+
+    text-align: center;
+
+}
+
+.icon{
+
+    text-align: center;
+
+}
+
 a{
 
     color: #D6CFC7;
@@ -35,3 +50,22 @@ a{
     text-align: justify;
 
 }
+
+
+@media screen and (max-width: 80rem) {
+    
+    main{
+
+        display: block;
+
+    }
+
+    menu{
+
+        width: auto;
+
+    }
+
+
+  }
+  
