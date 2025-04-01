@@ -1,0 +1,37 @@
+body{
+
+    background-color: #544C4A;
+    color: #D6CFC7;
+
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+main{
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+
+header{
+
+    text-align: center;
+
+    border-bottom: #D6CFC7 1px solid;
+
+}
+
+a{
+
+    color: #D6CFC7;
+
+}
+
+#contents{
+
+    text-align: justify;
+
+}
