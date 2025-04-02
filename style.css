@@ -1,5 +1,7 @@
 body{
 
+    margin: 0%;
+
     background-color: #544C4A;
     color: #D6CFC7;
 
@@ -18,20 +20,57 @@ main{
 
 header{
 
+    position: sticky;
+
     text-align: center;
 
     border-bottom: #D6CFC7 1px solid;
 
+    padding: 1rem;
+
 }
+
 
 menu{
 
     border-bottom: #D6CFC7 1px solid;
-    width: fit-content;    
+    width: 20rem;    
+
+    margin: 0;
 
     text-align: center;
 
+    position: sticky;
+
+    top: 0;
+
+    z-index: 99;
+
+    height: fit-content;
+
+    background-color: #544C4A;
+
+
+
 }
+
+#dropdownMenu{
+
+    display: block;
+
+    padding-top: 1rem;
+
+}
+
+#dropdownButton{
+
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #D6CFC7;
+
+}
+
+
 
 .icon{
 
@@ -48,6 +87,7 @@ a{
 #contents{
 
     text-align: justify;
+    padding: 1rem;
 
 }
 
@@ -62,10 +102,29 @@ a{
 
     menu{
 
-        width: auto;
+        width: 100vw;
+
+        padding: 0;
+
+
+    }
+
+    #dropdownMenu{
+
+        display: none;
 
     }
 
 
   }
+
+
+footer{
+
+
+
+    text-align: center;
+    border-top: #D6CFC7 1px solid;
+
+}
   
