@@ -16,6 +16,12 @@ main{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 
+    p{
+
+    text-align: justify;
+
+}
+
 }
 
 header{
