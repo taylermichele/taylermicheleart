@@ -11,10 +11,14 @@ body{
 
 }
 
+#logo{
+
+    max-width: 300px;
+
+}
+
 main{
 
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
 
     p{
 
@@ -39,8 +43,7 @@ header{
 
 menu{
 
-    border-bottom: #D6CFC7 1px solid;
-    width: 20rem;    
+    border-bottom: #D6CFC7 1px solid;    
 
     margin: 0;
 
@@ -48,13 +51,17 @@ menu{
 
     position: sticky;
 
-    top: 0;
+    bottom: 0;
 
     z-index: 99;
 
-    height: fit-content;
+    backdrop-filter: blur(10px);
 
-    background-color: #544C4A;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+
+    mask: linear-gradient(transparent, rgba(0,0,0,.8), 30px black, black);
+
+    vertical-align: bottom;
 
 
 
@@ -62,13 +69,19 @@ menu{
 
 #dropdownMenu{
 
-    display: block;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
 
     padding-top: 1rem;
 
 }
 
 #dropdownButton{
+
+    display: none;
 
     background-color: rgba(0, 0, 0, 0);
     border: none;

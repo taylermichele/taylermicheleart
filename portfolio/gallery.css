@@ -1,13 +1,57 @@
 .contents{
 
-    display: flex;
+    margin: auto;
 
-    flex-wrap: wrap;
+    display: grid;
 
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
 
     gap: 20px;
 
     padding: 20px;
+
+
+    img{
+
+        height: fit-content;
+
+        margin: auto;
+
+    }
+
+    .tall{
+
+        grid-row: span 2;
+
+    }
+
+    .wide{
+
+        grid-column: span 2;
+
+    }
+    
+    
+
+}
+
+
+@media screen and (max-width: 60rem) {
+
+    .contents{
+
+        grid-template-columns: 1fr 1fr;
+
+        img{
+            width: 100%;
+        }
+
+    }
+
+    .tall{
+
+        grid-column: span 2;
+
+    }
 
 }
