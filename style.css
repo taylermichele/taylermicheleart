@@ -26,6 +26,12 @@ main{
 
 }
 
+
+display: flex;
+justify-content: center;
+
+
+
 }
 
 header{
@@ -112,12 +118,12 @@ a{
 
 section{
 
-    h2{
+    background-color: rgba(0,0,0,.25);
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem;
 
-        width: 100%;
-        text-align: center;
-
-    }
+    border-radius: 5px;
 
 }
 
@@ -132,6 +138,41 @@ section{
             filter: drop-shadow(0px 0px 5px black);
 
         }
+
+}
+
+.sidebyside{
+
+    display: flex;
+    justify-content: space-around;
+
+        img{
+            
+            height: 30rem;
+
+        }
+}
+
+.galleryTitle{
+
+    line-height: 3rem;
+
+    font-variant: small-caps;
+
+    text-align: center;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color: #afa79e;
+    filter: grayscale();
 
 }
 
