@@ -23,6 +23,7 @@ main{
     p{
 
     text-align: justify;
+    line-height:170%;
 
 }
 
@@ -149,6 +150,7 @@ section{
         img{
             
             height: 30rem;
+            margin: auto;
 
         }
 }
