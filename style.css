@@ -19,6 +19,18 @@ body{
 
 main{
 
+    margin-left: 7%;
+    margin-right: 7%;
+
+
+    img{
+
+        width: auto;
+        height: 100%;
+
+        margin: auto;
+
+    }
 
     p{
 
@@ -27,11 +39,24 @@ main{
 
 }
 
+    br{
+
+        margin-top: 1rem;
+
+    }
+
 
 display: flex;
 justify-content: center;
 
 
+
+}
+
+
+.labeledImg{
+
+    text-align: center;
 
 }
 
