@@ -3,7 +3,7 @@
     position: fixed;
 
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 
     margin: 0%;
     padding: 0%;
@@ -115,10 +115,7 @@ menu{
 
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
 
-    mask: linear-gradient(transparent, rgba(0,0,0,.8), 30px black, black);
-
     vertical-align: bottom;
-
 
 
 }
@@ -126,9 +123,7 @@ menu{
 #fullscreenMenu{
 
     display: flex;
-
     flex-direction: row;
-
     justify-content: space-around;
 
     padding-top: 1rem;
@@ -236,7 +231,7 @@ a:hover{
 }
 
 
-@media screen and (max-width: 100rem) {
+@media (orientation: portrait) {
     
     main{
 
@@ -266,6 +261,12 @@ a:hover{
         position: fixed;
         top: 0;
         left: 0;
+
+    }
+
+    .sidebyside{
+
+        flex-direction: column;
 
     }
 
