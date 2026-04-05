@@ -1,7 +1,7 @@
 function toggleMenu()
 {
 
-    var menu = document.getElementById("dropdownMenu");
+    var menu = document.getElementById("mobileMenu");
 
     if(menu.style.display == "block")
     {

@@ -1,3 +1,27 @@
+#mobileMenu{
+
+    position: fixed;
+
+    width: 100vw;
+    height: 100vw;
+
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+
+    background-color: rgba(0,0,0,.25);
+    backdrop-filter: blur(2px);
+
+    text-align: center;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: 100;
+
+}
+
 body{
 
     margin: 0%;
@@ -99,7 +123,7 @@ menu{
 
 }
 
-#dropdownMenu{
+#fullscreenMenu{
 
     display: flex;
 
@@ -113,11 +137,19 @@ menu{
 
 #dropdownButton{
 
-    display: none;
+
+    z-index: 101;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
 
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: #D6CFC7;
+
+    display: none;
 
 }
 
@@ -221,9 +253,17 @@ a:hover{
 
     }
 
-    #dropdownMenu{
+    #fullscreenMenu{
 
         display: none;
+
+    }
+
+    #dropdownButton{
+
+        display: fixed;
+        top: 0;
+        left: 0;
 
     }
 
