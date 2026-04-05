@@ -262,6 +262,12 @@ a:hover{
         top: 0;
         left: 0;
 
+        h1{
+
+            font-size: 30px;
+
+        }
+
     }
 
     .sidebyside{
